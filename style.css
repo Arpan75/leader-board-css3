@@ -1,3 +1,49 @@
-h1 {
-    color: red;
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400;1,500&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+/* body and other css */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #9F9F9F;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 870px;
+    /* height: 679px; */
+    padding: 30px;
+}
+
+/* top players style section */
+.section-title {
+    font-size: 24px;
+    color: rgba(86, 46, 255, 1);
+}
+
+.players {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
 }
